@@ -1,0 +1,1 @@
+summon blaze -31 125.5 -60 {Silent:1b,Invulnerable:1b,CustomNameVisible:1b,DeathLootTable:"",PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Tags:["dungeon_red_king"],CustomName:'{"text":"Red Sand King","color":"red","italic":false}'}

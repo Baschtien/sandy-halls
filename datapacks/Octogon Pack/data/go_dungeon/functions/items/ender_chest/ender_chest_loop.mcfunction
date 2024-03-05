@@ -1,0 +1,3 @@
+#execute if score Progress DungeonEvents matches 1..2 unless score EnderChestActivated DungeonEvents matches 1.. as @a[nbt={SelectedItem:{tag:{ender_chest:1b}}}] run function go_dungeon:items/ender_chest/activate_ender_chest
+execute if score Progress DungeonEvents matches 1..2 unless score EnderChestActivated DungeonEvents matches 1.. as @a store success score @s DungeonTmp run clear @s ender_chest{ender_chest:1b}
+execute if score Progress DungeonEvents matches 1..2 unless score EnderChestActivated DungeonEvents matches 1.. if entity @a[scores={DungeonTmp=1}] run function go_dungeon:items/ender_chest/activate_ender_chest

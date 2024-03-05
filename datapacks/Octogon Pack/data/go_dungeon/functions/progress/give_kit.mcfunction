@@ -1,0 +1,5 @@
+give @s wooden_sword{display:{Name:'{"text":"Explorer\'s Blade","color":"yellow","italic":false}',Lore:['{"text":"Item","color":"aqua","italic":false}','{"text":"Your basic weapon. It works,","italic":false}','{"text":"but you might want to change it later!","italic":false}']},Unbreakable:1b}
+give @s stone_pickaxe{CanDestroy:["minecraft:spawner"],display:{Lore:['{"text":"Item","color":"aqua","italic":false}','{"text":"A slow but trusty tool to","italic":false}','{"text":"break creature spawners.","italic":false}']},Unbreakable:1b}
+give @s golden_shovel{CanDestroy:["minecraft:red_sand","minecraft:redstone_torch"],display:{Name:'{"text":"Explorer\'s Shovel","color":"yellow","italic":false}',Lore:['{"text":"Item","color":"aqua","italic":false}','{"text":"Quite useful to","italic":false}','{"text":"dig out red sand!","italic":false}']},Unbreakable:1b}
+give @s carrot 64
+give @s tripwire_hook{display:{Name:'{"text":"Lock Picker","color":"yellow","italic":false}',Lore:['{"text":"Item","color":"aqua","italic":false}','{"text":"Allows you to loot chests.","italic":false}','{"text":"Works just like a key!","italic":false}']}}

@@ -1,0 +1,2 @@
+tellraw @a ["",{"text":"[","color":"gray"},{"text":"Red Sand King","color":"red"},{"text":"] ","color":"gray"},{"text":"...Scared? Of course, dear, who isn't ? ...Death? Ha ha ha!","color":"red"},"\n",{"text":"Don't worry about death, explorers! As the great magician I am (well.. I used to be), I can shield you and your belongings from demise. It does have a price though: half of your Red Sand.","color":"red"}]
+function go_dungeon:chat/dialogue/red_sand_king_speaks

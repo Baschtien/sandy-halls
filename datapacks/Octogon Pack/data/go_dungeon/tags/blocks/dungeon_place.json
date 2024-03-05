@@ -1,0 +1,20 @@
+{
+
+    "values":[
+        "minecraft:sand",
+        "minecraft:sandstone",
+        "minecraft:sandstone_stairs",
+        "minecraft:sandstone_slab",
+        "minecraft:cut_sandstone",
+        "minecraft:chiseled_sandstone",
+        "minecraft:sandstone_wall",
+        "minecraft:red_sand",
+        "minecraft:red_sandstone",
+        "minecraft:red_sandstone_stairs",
+        "minecraft:red_sandstone_slab",
+        "minecraft:cut_red_sandstone",
+        "minecraft:chiseled_red_sandstone",
+        "minecraft:red_sandstone_wall"
+        ]
+
+}

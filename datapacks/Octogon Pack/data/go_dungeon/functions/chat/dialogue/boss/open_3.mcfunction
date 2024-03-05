@@ -1,0 +1,2 @@
+tellraw @a ["",{"text":"[","color":"gray"},{"text":"Red Sand King","color":"red"},{"text":"] ","color":"gray"},{"text":"Now don't be angry at me! I would've loved to warn you earlier, but... Would you have helped if you had known? ... ... OK maybe you would have. And with your gear, I have no doubts about our victory! Let's go!! ","color":"red"}]
+function go_dungeon:chat/dialogue/red_sand_king_speaks

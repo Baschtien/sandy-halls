@@ -1,0 +1,4 @@
+function go_dungeon:features/chest_missed_difference
+execute if score ChestsMissedDifference DungeonEvents matches 0 run tellraw @a ["",{"text":"[","color":"gray"},{"text":"Red Sand King","color":"red"},{"text":"] ","color":"gray"},{"text":"Oh, and it looks like you listened and looked well: you've not missed any loot this level!","color":"red"}]
+execute unless score ChestsMissedDifference DungeonEvents matches 0 run tellraw @a ["",{"text":"[","color":"gray"},{"text":"Red Sand King","color":"red"},{"text":"] ","color":"gray"},{"text":"Welp, even by asking you to look for loot, you still missed ","color":"red"},{"score":{"name":"ChestsMissedDifference","objective":"DungeonEvents"},"bold":true,"color":"dark_red"},{"text":" chests this level. Don't worry, you'll get the hang of it! ","color":"red"},{"text":"(I hope so, for our sake...)","italic":true,"color":"red"}]
+function go_dungeon:chat/dialogue/red_sand_king_speaks
